@@ -1,0 +1,41 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.task-completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.task-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.task-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.task-button svg {
+    color: #007bff;
+}
+
+.task-button:hover svg {
+    color: #0056b3;
+}
